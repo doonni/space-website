@@ -1,0 +1,96 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    background-image: url('/images/home/background-home-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h2 {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 150px;
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    color:rgb(242, 254, 254);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+nav {
+    font-family: "Source Sans Pro", sans-serif;
+    z-index: 1; 
+    max-width: 100%;
+    max-height: 100%;
+}
+
+ul {
+    -webkit-backdrop-filter: blur(80%);
+    backdrop-filter: blur(60px);
+    margin: 3%;
+    padding: 0;
+    font-size: 1.15em;
+    list-style: none;
+    height: 6rem;
+    display: flex;
+    justify-content: flex-end; 
+    width: 50%;
+    margin-left: auto;
+}
+
+li{
+    list-style: none;
+    margin: 2rem 2.50rem;
+    transition: all ease-in-out .5s;
+}
+
+li a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid white;
+  }
+  
+  .topnav a.active {
+    border-bottom: 3px solid white;
+  }
+
+.logo{
+    float: left; margin: 2% 7%;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-image: url('/images/home/background-home-mobile.jpg')
+    }
+  }
+
+  .button {
+    background-color: white;
+    border: none;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 250%;
+    font-family: 'Nanum Myeongjo', sans-serif;
+  }
+
+  .button1 {border-radius:50%;}
+
